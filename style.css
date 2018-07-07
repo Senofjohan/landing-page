@@ -1,0 +1,39 @@
+body {
+	background: url(landing.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+h1 {
+	/*text-align: center;*/
+	color: white;
+	font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+	font-style: normal;
+	font-size: 80px;
+	margin-bottom: 40px;
+	margin-top: 15%;
+	margin-left: 15%;
+}
+
+#landing {
+  position: relative;
+  min-height: 400px;
+}
+
+#takeoff {
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+}
+#takeoff a {
+	font-size: 40px;
+	color: white;
+	text-decoration: none;
+}
+#takeoff a:hover {
+	color: red;
+	transition: 2s;
+	cursor: pointer;
+}
